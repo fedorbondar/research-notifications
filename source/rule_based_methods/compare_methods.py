@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
-from source.methods.vocab import CheckGrammarWithVocabulary
-from source.methods.language_tool import CheckGrammarWithLanguageTool
+from source.rule_based_methods.vocab import CheckGrammarWithVocabulary
+from source.rule_based_methods.language_tool import CheckGrammarWithLanguageTool
 
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, accuracy_score
 
