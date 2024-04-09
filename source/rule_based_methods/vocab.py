@@ -8,7 +8,7 @@ class CheckGrammarWithVocabulary:
 
     def __init__(self):
         # https://github.com/danakt/russian-words
-        with open('russian.txt') as f:
+        with open('../source/rule_based_methods/russian.txt') as f:
             words = f.readlines()
             for word in words:
                 self.vocabulary[word[:-1]] = 1
